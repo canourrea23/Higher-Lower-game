@@ -1,0 +1,38 @@
+.hidden {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
+}
+
+body {
+  color: white;
+  background: linear-gradient(137deg, rgba(2,0,36,1) 33%, rgba(9,9,121,1) 51%, rgba(0,212,255,1) 100%);
+  /* background-color: #9EDE73; */
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#guess-input {
+  display: block;
+  margin: 20px auto;
+  width: 60px;
+  height: 40px;
+  font-size: 30px;
+}
+
+#guess-button {
+  width: 200px;
+  height: 40px;
+  font-size: 1rem;
+}
+
+#message-container {
+  font-size: 60px;
+  margin: 20px auto;
+}
+/* .guess-input {
+  text-align: center;
+} */
